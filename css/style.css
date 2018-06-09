@@ -196,9 +196,39 @@ margin-bottom: 10px;
     left:auto;
     transform:skew(8deg) rotate(3deg);
 }
+#page__chatbot {
+	padding: 0px;
+}
 .chatbot__frame {
 	background-image: url(../img/background-chatbot.png);
 	background-repeat: no-repeat;
-	width: 100vw;
-	height: 100vh;
+	background-size: cover;
+	width: 100%;
+	min-height: 700px;
+}
+.field__message {
+	background-color: #F7F7F7;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 22px;
+	color: #3D3D3D;
+}
+.icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 35%;
+	font-size: 28px;
+}
+::placeholder {
+	padding-left: 10px;
+	color: #939398;
+}
+input {
+	background-color: #E8E9EA;
+	border-radius: 25px;
+	width: 65%;
 }
