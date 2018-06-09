@@ -2,7 +2,7 @@
 	margin-left: 10px;
 }
 
-html, 
+html,
 body,
 #cover{
 	height: 81%;
@@ -87,7 +87,7 @@ a.dropdown-item:hover{
 	transition: 0.6s;
 	-webkit-transition: 0.6s;
 	-moz-transition: 0.6s;
-	-o-transition: 0.6s;	
+	-o-transition: 0.6s;
 	font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ a.dropdown-item:hover{
 	background-color: #ffffff;
 	-webkit-transition: 0.6s;
 	-moz-transition: 0.6s;
-	-o-transition: 0.6s;	
+	-o-transition: 0.6s;
 	transition: 0.6s;
 	color: #e88720;
 	font-weight: bold;
@@ -120,7 +120,7 @@ a.dropdown-item:hover{
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 }
 
 .restaurantss-top{
@@ -181,7 +181,7 @@ margin-bottom: 10px;
 .effect7:before, .effect7:after
 {
     content:"";
-    position:absolute; 
+    position:absolute;
     z-index:-1;
     box-shadow:0 0 20px rgba(0,0,0,0.8);
     top:0;
@@ -189,10 +189,16 @@ margin-bottom: 10px;
     left:10px;
     right:10px;
     border-radius:100px / 10px;
-} 
+}
 .effect7:after
 {
-    right:10px; 
-    left:auto; 
+    right:10px;
+    left:auto;
     transform:skew(8deg) rotate(3deg);
+}
+.chatbot__frame {
+	background-image: url(../img/background-chatbot.png);
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
 }
